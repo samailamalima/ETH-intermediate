@@ -68,4 +68,4 @@ Additional Commands:
 [[Samaila Anthony Malima](https://github.com/samailamalima)] 
 
 # License
-This project is licensed under the [GPL 3.0] License.
+This project is licensed under the MIT License.
