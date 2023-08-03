@@ -25,7 +25,7 @@ export default function Token() {
       const ethersProvider = new ethers.providers.Web3Provider(provider);
       setProvider(ethersProvider);
 
-      // Create an instance of the EPIToken contract using the contract ABI and address
+      // Create an instance of the MalimaToken contract using the contract ABI and address
       const malimaContract = new ethers.Contract(
         malimaAddress,
         MalimaToken.abi,
@@ -44,7 +44,7 @@ export default function Token() {
         });
 
       // Get the total supply of the MalimaToken contract
-      malimaContract.totalSupply().then((totalSupply) => {
+      malimaContract.totalSupply().then(function (totalSupply) {
         setTotalSupply(totalSupply.toNumber());
       });
 
