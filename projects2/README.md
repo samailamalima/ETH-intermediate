@@ -1,12 +1,12 @@
-ETH-Intermediate-Projects2 Documentation
+# ETH-Intermediate-Projects2 Documentation
 
-Description:
+# Description:
 ETH-Intermediate-Projects2 is a project aimed at creating a simple smart contract with 2-3 functions and displaying their values in the frontend of the application. This documentation provides the steps to get started with the project and execute it.
 
-Requirements:
+# Requirements:
 1. MetaMask extension installed in your web browser.
 
-Getting Started:
+#Getting Started:
 
 1. Clone the Repository:
    Download the entire repository from GitHub to access all the project contents.
@@ -64,5 +64,8 @@ Additional Commands:
   npx hardhat test
   ```
 
-Author:
+# Author:
 [[Samaila Anthony Malima](https://github.com/samailamalima)] 
+
+# License
+This project is licensed under the [GPL 3.0] License.
