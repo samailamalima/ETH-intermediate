@@ -14,7 +14,7 @@ contract MalimaToken {
     // Constructor that initializes the token's name, symbol, and total supply
     // and sets the balance of the contract creator to the total supply
     constructor() {
-        name = "Eth Proof Intermediate Token";
+        name = "Eth MalimaToken";
         symbol = "MLT";
         totalSupply = 6;
         balances[msg.sender] = 6;
