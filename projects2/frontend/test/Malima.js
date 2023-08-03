@@ -37,7 +37,7 @@ describe("MalimaToken", function () {
   });
 
   it("Should revert if an invalid address is provided to mint", async function () {
-    await expect(Malima.connect(owner).mint("0x5FbDB2315678afecb367f032d93F642f64180aa3", 1)).to.be.revertedWith("Invalid address");
+    await expect(Malima.connect(owner).mint("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512", 1)).to.be.revertedWith("Invalid address");
   });
 
   it("Should revert if the contract creator doesn't have sufficient balance to burn", async function () {
