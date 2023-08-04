@@ -2,19 +2,19 @@
 const hre = require("hardhat");
 const fs = require('fs');
 
-// funtion to deploy the contracts
+// function to deploy the contracts
 async function main() {
 
   //deploy the token
-  const EPI = await hre.ethers.getContractFactory("EPITokenMint");
-  const epi = await EPI.deploy();
-  await epi.deployed();
-  console.log("epi deployed to:", epi.address);
+  const Malima = await hre.ethers.getContractFactory("MalimaTokenMint");
+  const malima = await Malima.deploy();
+  await malima.deployed();
+  console.log("malima deployed to:", malima.address);
 
 
   // export the addresses
   fs.writeFileSync('scripts/address.js', `
-    export const epiAddress = '${epi.address}'
+    export const malimaAddress = '${malima.address}'
 
   `);
 }

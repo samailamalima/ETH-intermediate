@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.19;
 
-contract EPITokenMint {
+contract MalimaTokenMint {
 
     // Declare public variables
     string public tokenName;
@@ -15,8 +15,8 @@ contract EPITokenMint {
 
     // Constructor function that sets the token name, symbol, and owner
     constructor() {
-        tokenName = "Eth Proof Intermediate Module 3 Token";
-        tokenSymbol = "EIM";
+        tokenName = "Eth Malima Token projects 3";
+        tokenSymbol = "MLT";
         owner = msg.sender;
     }
 

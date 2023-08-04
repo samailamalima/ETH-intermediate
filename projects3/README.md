@@ -17,26 +17,38 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the code into the file.
 
-#### Hardhat
+# Requirements:
+1. MetaMask extension installed in your web browser.
 
-Download the codes by downloading the entire repository which will give you access to other contencts of the repository.In the project directory,  run:
+#Getting Started:
 
-```shell
+1. Clone the Repository:
+   Download the entire repository from GitHub to access all the project contents.
 
- yarn install
+2. Install Dependencies:
+   In the project directory, open your terminal or command prompt and run the following command to install the required dependencies using npm:
 
-```
+   ```
+   npm install
+   ```
 
-After installing the dependences, run the test file by using the following command:
+3. Start Local Hardhat Node:
+   After installing the dependencies, run the following command to start the local Hardhat node:
 
-```shell
-yarn hardhat test
-```
+   ```
+   npx hardhat node
+   ```
 
-## Author
+4. Deploy the Contract:
+   Open a second terminal and deploy the contract on the local Hardhat node using the following command:
 
-[Michael](https://github.com/m-azra3l)
+   ```
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
 
-## License
+  # Author:
+[[Samaila Anthony Malima](https://github.com/samailamalima)] 
 
+# License
 This project is licensed under the [MIT License](LICENSE).
+
