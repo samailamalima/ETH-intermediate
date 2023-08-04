@@ -1,6 +1,6 @@
-# ETH-Proof-Intermediate-Module-3
+# Eth Malima Token projects 3
 
-This is the third project in ETH-Proof-Intermediate, in this project I am tasked to create a smart contract to create my own token on a local HardHat network. Once I have created the contract, I should be able to use remix to interact with it. From remix, the contract owner should be able to mint tokens to a provided address. Any user should be able to burn and transfer tokens.
+This is the third project in Eth Malima Token Project 3, I am tasked to create a smart contract to create my own token on a local HardHat network. Once I have created the contract, I should be able to use Remix to interact with it. From remix, the contract owner should be able to mint tokens to a provided address. Any user should be able to burn and transfer tokens.
 
 ## Getting Started
 
